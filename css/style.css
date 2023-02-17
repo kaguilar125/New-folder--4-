@@ -1,0 +1,69 @@
+:root {
+    --dark-blue: #264653;
+    --light-green: #2a9d8f;
+    --yellow: #e9c46a;
+    --orange: #f4a261;
+    --salmon: #e76f51;
+    }
+    .container-fluid {
+    color: var(--dark-blue);
+    font-size: 20px;
+    font-weight: bold;
+    min-height: 100vh;
+    background-color: var(--yellow);
+    }
+    
+    .row {
+    border: 1px solid var(--dark-blue);
+    min-height: 50px;
+    font-family: 'Luckiest Guy';
+    font-size: 100%;
+    }
+
+    div[class^="col"]{
+    border: px solid var(--salmon);
+    text-align: center;
+    }
+    
+    .boro{
+        font-family: 'Luckiest Guy';
+    font-size: 500%;
+    }
+
+    .st{
+        font-family: 'Happy Monkey';
+        font-size: 200%;
+    }
+
+    .color{
+        font-family: 'Luckiest Guy';
+        font-size: 250%;
+    }
+
+    .register{
+        font-family: 'Happy Monkey';
+        font-size: 180%;
+        border-radius: 15px;
+        border: 3px solid black;
+    }
+
+    .rara{
+        font-family: 'Happy Monkey';
+        font-size: 200%;
+        border-radius: 15px;
+        border: 3px solid black;
+    }
+    .blah{
+        font-family: 'Happy Monkey';
+        font-size: 120%;
+        border-radius: 15px;
+        border: 3px solid black;
+    }
+
+    .circle{
+        border: var(--dark-blue) 2px solid;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin: auto;
+    }
